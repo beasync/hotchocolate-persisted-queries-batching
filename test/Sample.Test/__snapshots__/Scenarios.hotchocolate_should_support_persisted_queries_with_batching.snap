@@ -1,0 +1,13 @@
+﻿---
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+
+{"data":{"spanish":"Hola"}}
+
+---
+Content-Type: application/json; charset=utf-8
+Content-Length: 28
+
+{"data":{"english":"Hello"}}
+
+-----

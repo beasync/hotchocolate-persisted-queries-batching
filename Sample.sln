@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4BE1728E-A4AD-4CC9-9A2C-0E08D0B070F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{23D217EE-54D1-4C84-9D61-9513C6A7A5CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample", "src\Sample\Sample.csproj", "{729691F7-3F77-4D03-993C-16763AE2232A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Test", "test\Sample.Test\Sample.Test.csproj", "{BD2E4316-1012-4B4D-94ED-9D9C0CFFF4F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{729691F7-3F77-4D03-993C-16763AE2232A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729691F7-3F77-4D03-993C-16763AE2232A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729691F7-3F77-4D03-993C-16763AE2232A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729691F7-3F77-4D03-993C-16763AE2232A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2E4316-1012-4B4D-94ED-9D9C0CFFF4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2E4316-1012-4B4D-94ED-9D9C0CFFF4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2E4316-1012-4B4D-94ED-9D9C0CFFF4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2E4316-1012-4B4D-94ED-9D9C0CFFF4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{729691F7-3F77-4D03-993C-16763AE2232A} = {4BE1728E-A4AD-4CC9-9A2C-0E08D0B070F2}
+		{BD2E4316-1012-4B4D-94ED-9D9C0CFFF4F4} = {23D217EE-54D1-4C84-9D61-9513C6A7A5CD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EE6CF40-FF23-43F0-A621-1B380F254D14}
+	EndGlobalSection
+EndGlobal
